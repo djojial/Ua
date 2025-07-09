@@ -50,6 +50,9 @@ if page == "Classification":
     y_pred = model.predict(X_test)
     cm = confusion_matrix(y_test, y_pred)
 
+    st.write("**Metrik Klasifikasi**")
+    st.text(classification_report(y_test, y_pred))
+
     st.write("**Confusion Matrix**")
     fig, ax = plt.subplots()
     sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", ax=ax)
