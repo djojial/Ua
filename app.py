@@ -22,8 +22,8 @@ page = st.sidebar.radio(
 st.title("Ujian Akhir Semester")
 st.header("Streamlit Apps")
 st.write("Collection of my apps deployed in Streamlit")
-st.write("Nama: [ISI NAMAMU]")
-st.write("NIM: [ISI NIMMU]")
+st.write("Nama: [Muhammad Djoji Alamni]")
+st.write("NIM: [22146052]")
 
 # ======================
 #  Classification Page
